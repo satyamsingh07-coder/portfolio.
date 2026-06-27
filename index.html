@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Port<span>folio.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>satyam singh</h1>
+            <h3>And I'm a <span class="typing-text"></span></h3>
+            <p>Welcome to my professional space. I build sleek, scalable, and user-centric digital solutions.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>I am Satyam Singh, an engineering student with a strong passion for technology, innovation, and continuous learning. I enjoy exploring subjects like electrical engineering, programming, physics, and emerging technologies while constantly improving my technical and problem-solving skills. Alongside academics, I am a cricket enthusiast who values teamwork, discipline, and perseverance. My goal is to build a successful career, contribute to meaningful technological advancements, and keep learning and growing both personally and professionally.</p>
+                <p>When I'm not coding or working on projects, you can find me exploring new technologies, reading, or contributing to open-source communities.</p>
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box"><i class="fab fa-html5"></i> <h3>HTML5</h3></div>
+            <div class="skill-box"><i class="fab fa-css3-alt"></i> <h3>CSS3</h3></div>
+            <div class="skill-box"><i class="fab fa-js-square"></i> <h3>JavaScript</h3></div>
+            <div class="skill-box"><i class="fab fa-react"></i> <h3>python</h3></div>
+            <div class="skill-box"><i class="fab fa-git-alt"></i> <h3>C</h3></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="heading">Recent <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce application featuring secure user authentication, product management, and a seamless checkout gateway.</p>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Task Management Dashboard</h3>
+                    <p>A productivity application designed with drag-and-drop features to manage daily sprints, track goals, and team collaborations.</p>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>AI Analytics Tool</h3>
+                    <p>An interactive data visualization dashboard parsing real-time CSV inputs into intuitive graphical analytics charts.</p>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+        <h2 class="heading"><span>Achievements</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Hackathon Winner</h3>
+                    <p>Secured 1st place out of 150+ teams at TechSprint Hackathon for creating an automated disaster-relief coordination system.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>AWS Certification</h3>
+                    <p>Successfully achieved the AWS Certified Solutions Architect credential, validating expertise in cloud design and architecture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2026 by John Doe | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
